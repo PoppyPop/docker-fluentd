@@ -12,6 +12,7 @@ RUN apk add --update --virtual .build-deps \
         fluent-plugin-tail-multiline-ex \
         fluent-plugin-concat \
 		fluent-plugin-rewrite-tag-filter \
+		fluent-plugin-retag \
  && sudo gem sources --clear-all \
  && apk del .build-deps \
  && rm -rf /var/cache/apk/* \
