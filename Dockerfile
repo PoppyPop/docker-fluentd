@@ -8,9 +8,6 @@ RUN apk add --update --virtual .build-deps \
  && sudo gem install \
         fluent-plugin-elasticsearch \
 		fluent-plugin-record-modifier \
-        fluent-plugin-xml-parser \
-        fluent-plugin-tail-multiline-ex \
-        fluent-plugin-concat \
 		fluent-plugin-rewrite-tag-filter \
 		fluent-plugin-retag \
  && sudo gem sources --clear-all \
